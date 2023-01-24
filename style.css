@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.both input{
+    height: 40px;
+    width: 250px;
+}
+.both button{
+    border-radius: 0px;
+    border: 2px solid #161e54;
+    margin-left: -4px;
+    height: 43px;
+    width: 100px;
+    color: white;
+    background-color: #161e54;
+}
+
+.Heading{
+    height: 8vh;
+    text-align: center;
+    color: white;
+    background-color: #161e54;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    height: 20vh;
+}
+.container h4{
+    height: 5vh;
+    margin-left: -150px;
+}
+.controls{
+    width: 55%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#audio{
+    margin-top: 20px;
+    height: 7vh;
+    border-radius: 10px;
+}
